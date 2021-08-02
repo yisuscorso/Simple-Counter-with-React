@@ -11,3 +11,41 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+body{
+    background-image: url('/src/img/the_Edge_of_tome.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 35vw;
+}
+
+.bigCounter{
+    display: flex;
+    text-align: center;
+    background-color: rgba(0,0,0,0.4);
+    margin: 85px 200px 0px 200px;
+    border-radius: 7px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: solid 1px rgba(255,255,255,0.4);
+}
+
+.bigCounter div{
+    display: inline-block;
+    font-size: 100px;
+    line-height: 80px;
+    color: white;
+    padding: 15px;
+    margin: 5px;
+    justify-content: center;
+}
+
+.one, .two, .three, .four, .five, .six {
+    background-color: rgba(0,0,0,0.3);
+    border: solid 1px rgba(255,255,255,0.2);
+}
+
+

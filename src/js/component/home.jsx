@@ -4,6 +4,9 @@ import React from "react";
 import rigoImage from "../../img/rigo-baby.jpg";
 
 //create your first component
+
+/* 
+
 const Home = () => {
 	return (
 		<div className="text-center mt-5">
@@ -24,3 +27,15 @@ const Home = () => {
 };
 
 export default Home;
+
+*/
+
+import { SimpleCounter } from "./lord-counter";
+
+export function Home() {
+	return (
+		<div>
+			<SimpleCounter />
+		</div>
+	);
+}
