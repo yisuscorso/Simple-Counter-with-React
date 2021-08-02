@@ -18,7 +18,7 @@ export function SimpleCounter(props) {
 	);
 }
 
-SimpleCounter.prototype = {
+SimpleCounter.propTypes = {
 	digitSix: PropTypes.number,
 	digitFive: PropTypes.number,
 	digitFour: PropTypes.number,
